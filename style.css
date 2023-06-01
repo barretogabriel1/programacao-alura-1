@@ -1,36 +1,68 @@
 *{
-   margin: 0;
-   padding: 0; 
+    margin: 0;
+    padding: 0; 
+ }
+ 
+.body {
+    font-family: sans-serif;
+    font-family: Arial;
 }
 
 .cabeçalho {
-    background-color: #804674;
-    color: #FFFFFF;
     display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
+    justify-content:center;
+    background-color: #9A208C;
+    margin: 0;
+    padding: 300px, 300px;
 }
 
-.cabeçalho-imagem{
-    width: 10%;
-    height: 10%;
+.cabeçalho-imagem {
+    width: 17%;
+    height: 17%;
 }
 
-.cabeçalho-item {
-    display: inline-block;
+.cabeçalho-título {
+    font-size: 50px;
+    text-align: center;
+    color:aqua
+}
+
+.cabeçalho-lista {
+    text-align: justify;
+    font-size: 14px;
+    color: aqua;
+}
+
+.Crítica-economia-política {
+    background-image: linear-gradient(#9A208C, #E11299);
+    color: aqua;
     font-size: 21px;
-    padding: 0 0 0 20px; 
+    margin: 0%;
+    padding: 1400px, 1400px;
 }
 
-.escola {
-    background-image: linear-gradient(#804674, #D277C0);
-    color: white;
-    font-size: 21px;
-    padding: 300px 250px;
+.Crítica-economia-política-título {
+    margin: 0%;
+    padding: 300px 300px;
 }
 
-.escola-titulo {
-    padding: 24px 0;
+.Crítica-economia-política-texto {
+    margin: 0%;
+    padding: 50px 50px;
+    text-align:center;
 }
 
+.faça-parte {
+    background-color: #E11299; 
+    text-align: center;
+    color: aqua;
+}
 
+.faça-parte-imagem {
+    width: 120px
+}
+
+.membros {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
